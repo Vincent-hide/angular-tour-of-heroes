@@ -7,14 +7,16 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 import { FormsModule } from '@angular/forms';
 import { RemoveSpacesPipe } from './remove-spaces.pipe';
-import { CustominputDirective } from './custominput.directive'; // <-- NgModel lives here
+import { CustominputDirective } from './custominput.directive';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component'; // <-- NgModel lives here
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     RemoveSpacesPipe,
-    CustominputDirective
+    CustominputDirective,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
